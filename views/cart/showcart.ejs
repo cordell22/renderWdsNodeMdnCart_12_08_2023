@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Cart Contents</title>
+</head>
+<body>
+  <h1>Cart Contents</h1>
+  <ul>
+    <% for (const item of cart) { %>
+      <li><%= item.id %> - <%= item.name %></li>
+    <% } %>
+  </ul>
+</body>
+</html>
